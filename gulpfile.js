@@ -39,4 +39,7 @@ gulp.task('minifyjs', function(){
     Define the 'build' command that will run all commands defined above one after another so you will just have to run one command for all tasks. 
     After adding a new task just add another argument to the series function representing your new task.
 */
+
 gulp.task('build', gulp.series('sass', 'minifyjs'));
+
+/* */
